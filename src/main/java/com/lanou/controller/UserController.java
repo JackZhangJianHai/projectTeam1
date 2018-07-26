@@ -28,6 +28,10 @@ public class UserController {
         int i = userServiceimpl.deleteByPrimaryKey(id);
         return "userlist";
     }
+    public String login(){
+        System.out.println(11);
+        return "aaa";
+    }
 
 }
 
